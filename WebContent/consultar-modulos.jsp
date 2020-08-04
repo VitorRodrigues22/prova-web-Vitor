@@ -38,7 +38,7 @@
 		<button class="btn btn-info my-2 my-sm-0" type="submit">Novo Registro</button>
 			<form class="form-inline" action = "${pageContext.request.contextPath}/modulos" method = "post" accept-charset="UTF-8" >
 				<input class="form-control mr-sm-2" type="search"
-					placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="btn-pesquisa" name="NOME">
+					placeholder="Insira um nome" aria-label="Pesquisar" aria-describedby="btn-pesquisa" name="NOME">
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn-pesquisa">Pesquisar</button>
 			</form>
 		</nav>

@@ -44,7 +44,7 @@ public class ModuloDAO {
 	}
 
 	// BUSCAR POR NOME
-	public List<Modulo> buscarPorId(String nome) {
+	public List<Modulo> buscarPorNome(String nome) {
 
 		List<Modulo> listaModulos = new ArrayList<>();
 		try (PreparedStatement stmt = conn.prepareStatement(SQL_LISTAR_POR_NOME);) {

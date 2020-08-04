@@ -55,7 +55,7 @@ public class ModulosTreinamentoServlet extends HttpServlet {
 		System.out.println("Código inserido: " + nome);
 
 		ModuloDAO moduloDAO = new ModuloDAO(conn);
-		List<Modulo> listaModulo = moduloDAO.buscarPorId(nome);
+		List<Modulo> listaModulo = moduloDAO.buscarPorNome(nome);
 
 		try {
 			conn.close();
