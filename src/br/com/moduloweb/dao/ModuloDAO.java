@@ -22,7 +22,7 @@ public class ModuloDAO {
 	}
 
 	// LISTAR TODOS
-	public List<Modulo> listarTodas() {
+	public List<Modulo> consultarModulos() {
 
 		List<Modulo> listaModulos = new ArrayList<>();
 		try (Statement stmt = conn.createStatement(); ResultSet rs = stmt.executeQuery(SQL_LISTAR_MODULOS);) {

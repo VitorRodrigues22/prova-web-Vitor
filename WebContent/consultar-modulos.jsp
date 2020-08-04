@@ -33,6 +33,9 @@
 	<br>
 	<div class="container">
 		<h1>Modulos RD</h1>
+		<a>Os botões <b>Novo Registro, Editar e Excluir</b> estão só de modelo, não funciona</a>
+		<br>
+		<a>A pesquisa pode ser realizada por NOME</a>
 		<br>
 		<nav class="navbar navbar-light bg-light">
 		<button class="btn btn-info my-2 my-sm-0" type="submit">Novo Registro</button>

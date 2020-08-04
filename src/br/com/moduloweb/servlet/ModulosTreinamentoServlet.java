@@ -29,7 +29,7 @@ public class ModulosTreinamentoServlet extends HttpServlet {
 		Connection conn = conexao.obterConexao();
 
 		ModuloDAO moduloDAO = new ModuloDAO(conn);
-		List<Modulo> listaModulo = moduloDAO.listarTodas();
+		List<Modulo> listaModulo = moduloDAO.consultarModulos();
 
 		try {
 			conn.close();
